@@ -34,7 +34,7 @@
             background: 
             linear-gradient(135deg, rgba(0,0,0,0.50) 0%, rgba(0,0,0,0.50) 100%),
             url('assets/museke.jpeg')  center no-repeat;
-            background-size: 50%;
+            background-size: cover;
             min-height: 50vh;
             display: flex;
             align-items: center;
@@ -54,15 +54,6 @@
                             <div class="position-absolute bottom-0 start-50 translate-middle-x w-25" 
                                  style="height: 3px; background: linear-gradient(90deg, transparent, #0d6efd, transparent);"></div>
                         </div>
-                        
-                        <!-- <div class="mt-5 pt-3">
-                            <a href="#get-started" class="btn btn-primary px-4 py-3 rounded-pill shadow">
-                                <span class="d-flex align-items-center">
-                                    <span>Begin Your Journey</span>
-                                    <i class="bi bi-arrow-right ms-2"></i>
-                                </span>
-                            </a>
-                        </div> -->
                     </div>
                 </div>
             </div>
@@ -71,38 +62,93 @@
 
         <!-- Features section-->
         <section class="py-5 border-bottom" id="features">
+            <h1 style="text-align: center;font-size: 250%">Actualités</h1>
             <div class="container px-5 my-5">
                 <div class="row gx-5">
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
-                        <h2 class="h4 fw-bolder">Featured title</h2>
-                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                        <a class="text-decoration-none" href="#!">
-                            Call to action
-                            <i class="bi bi-arrow-right"></i>
+                    <div class="row">
+                        <!-- Colonne 1 : Texte -->
+                        <div class="col-lg-6 mb-5 mb-lg-0">
+                            <h2 class="h4 fw-bolder">Featured title</h2>
+                            <p class="mb-4">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                            
+                            <!-- Bouton ou lien optionnel -->
+                            <a href="#" class="btn btn-outline-primary">En savoir plus</a>
+                        </div>
+                        
+                        <!-- Colonne 2 : Images liées au texte -->
+                        <div class="col-lg-6">
+                            <div class="row g-0">  
+                                <!-- Colonne gauche : Images 1 et 2 empilées -->
+                                <div class="col-6">
+                                    <div class="bg-light" style="height: 300px;">
+                                        <img src="assets/logo.jpeg" style="width: 100%; height: 50%; object-fit: cover;">
+                                        <img src="assets/logo.jpeg" style="width: 100%; height: 50%; object-fit: cover;">
+                                    </div>
+                                </div>
+                                <!-- Colonne droite : Images 3 et 4 empilées -->
+                                <div class="col-6">
+                                    <div class="bg-light" style="height: 300px;">
+                                        <img src="assets/logo.jpeg" style="width: 100%; height: 50%; object-fit: cover;">
+                                        <img src="assets/logo.jpeg" style="width: 100%; height: 50%; object-fit: cover;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </section>
+
+        <!-- mission et objectif -->
+        <section class="py-5 border-bottom" id="features">
+            <div class="container px-5 my-5">
+                <div class="row gx-5">                    
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><i class="bi bi-bullseye"></i></div>
+                        <h2 class="h4 fw-bolder">Objectifs Stratégiques</h2>
+                        <p>1. Qualité & Authenticité<br>
+                            <ul>
+                                <li>Produire des vins et liqueurs 100% naturels, sans additifs chimiques</li>
+                                <li>Obtenir des certifications</li>
+                                <li>Créer une gamme diversifiée</li>
+                            </ul>
+
+                            2. Développement Durable<br>
+                            <ul>
+                                <li>Cultiver la canne selon des pratiques agroécologiques</li>
+                                <li>Valoriser les sous-produits en énergie ou compost</li>
+                            </ul>
+
+                            3. Impact Social<br>
+                            <ul>
+                                <li>Créer des emplois locaux durables</li>
+                                <li>Soutenir les petits planteurs via des coopératives et des prix justes</li>
+                                <li>Former et autonomiser les jeunes et les femmes</li>
+                            </ul>
+
+                            4. Innovation<br>
+                            <ul>
+                                <li>Expérimenter de nouvelles techniques de fermentation et vieillissement</li>
+                                <li>Créer des éditions limitées</li>
+                            </ul>
+                        </p>
                         </a>
                     </div>
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
-                        <h2 class="h4 fw-bolder">Featured title</h2>
-                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                        <a class="text-decoration-none" href="#!">
-                            Call to action
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
+                    <div class="col-lg-3 mb-5 mb-lg-0">
+                        <div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><i class="bi bi-cup-straw"></i></div>
+                        <h2 class="h4 fw-bolder">Missions</h2>
+                        <p>Valoriser le terroir local en transformant la canne à sucre en vins et liqueurs d'exception, 100% naturels, sans colorants ni conservateurs, tout en préservant les savoir-faire artisanaux et en promouvant une agriculture durable.</p>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
-                        <h2 class="h4 fw-bolder">Featured title</h2>
-                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                        <a class="text-decoration-none" href="#!">
-                            Call to action
-                            <i class="bi bi-arrow-right"></i>
+                    <div class="col-lg-3 mb-5 mb-lg-0">
+                        <div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><i class="bi bi-trophy"></i></div>
+                        <h2 class="h4 fw-bolder">Vision</h2>
+                        <p>Devenir une référence africaine et internationale dans l'art de la vinification à base de canne à sucre, en alliant tradition, innovation et respect de l'environnement, tout en créant une filière économique inclusive et équitable.</p>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
+
         <!-- Pricing section-->
         <section class="bg-light py-5 border-bottom">
             <div class="container px-5 my-5">
