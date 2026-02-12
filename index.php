@@ -43,6 +43,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-7 text-center">
                         <h1 class="display-4 fw-bold text-white mb-4 lh-sm">
+                            <br>
                             100% naturel, 100% authentique.
                         </h1>
                         
@@ -61,7 +62,7 @@
 
 
         <!-- Features section-->
-        <section class="py-5 border-bottom" id="features">
+        <section class="py-5 border-bottom bg-light" id="features">
             <h1 style="text-align: center;font-size: 250%">Actualités</h1>
             <div class="container px-5 my-5">
                 <div class="row gx-5">
